@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta title="Grid Test">
+    <style>
+     @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
+
+.grid-test {
+  /* Photo by mnm.all on Unsplash */
+  background: url('https://images.unsplash.com/photo-1518176258769-f227c798150e') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.grid-test > * {
+  color: white;
+}
+
+.grid-test > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.grid-test > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.grid-test > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+}
+.items > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+.items> ul > li > figure > img {
+  width: 100%;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <main class="wrapper">
+        <section class="grid-test">
+            <h1>Grid-testing</h1>
+            <article>
+            <p>Here I am testing grid</p>
+            <a href="#breweries">Browse Breweries</a>
+
+        </article>
+        </section>
+        <section class="items" id="items">
+            <ul>
+                <li>
+                    <figure>
+                        <!-- Photo by Quentin Dr on Unsplash -->
+                        <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses">
+                        <figcaption><h3>Billions upon billions</h3></figcaption>
+                      </figure>
+                      <p>
+                        Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                      </p>
+                      <a href="#">Visit Website</a>
+                </li>
+                <li>
+                    <figure>
+                        <!-- Photo by Drew Farwell on Unsplash -->
+                        <img src="https://images.unsplash.com/photo-1513309914637-65c20a5962e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80" alt="Several friends doing a toast">
+                        <figcaption><h3>Drake Equation</h3></figcaption>
+                      </figure>
+                      <p>
+                        Another world citizens of distant epochs from which we spring descended from astronomers Orion's sword shores of the cosmic ocean.
+                      </p>
+                      <a href="#">Visit Website</a>
+                </li>
+                <li>
+                    <figure>
+                        <!-- Photo by Rawpixel on Unsplash -->
+                        <img src="https://images.unsplash.com/photo-1535359056830-d4badde79747?ixlib=rb-1.2.1&auto=format&fit=crop&w=3402&q=80" alt="Three different glasses of beer">
+                        <figcaption><h3>Vast cosmic arena</h3></figcaption>
+                      </figure>
+                      <p>
+                        Galaxies the ash of stellar alchemy prime number science inconspicuous motes of rock and gas brain is the seed of intelligence.
+                      </p>
+                      <a href="#">Visit Website</a>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

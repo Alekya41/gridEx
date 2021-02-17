@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.outer{
+    display:flex;
+    padding:2em;
+    flex-direction:column;
+    align-content:space-between;
+    gap:10px;
+    background-color: rgb(37, 65, 78);
+}
+
+.section{
+    display:flex;
+    gap:2px;
+    flex-wrap: wrap;
+   
+}
+div{
+    background-color:lavender;
+    padding:.10px;
+    text-align: center;
+}
+#job-title{
+    flex:2 0 30%;
+
+}
+#candidates{
+    flex:1 0 20%;
+
+}
+#incomplete{
+    flex:1 0 20%;
+
+}
+#edit{
+    flex:0.5 0 20%;
+}
+#search{
+    flex:2 0 30%;
+}
+.add-candidates{
+    color:white;
+    align-content:center;
+}
+.btn {
+    border: none;
+    background-color:dodgerblue;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+input{
+    border-radius: 8px;
+}
+.third-sec{
+    background-color:azure;
+    padding:5px;
+}
+#lead{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+#filter{
+    border-radius:50%;
+}
+#list{
+margin-left:auto;
+align-content:center;
+}
+@media screen and (min-width: 750px){
+.fourth-sec{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: stretch;
+    grid-gap:20px;
+    border-radius: 5px;
+
+}
+.five {
+    border:1px solid black;
+    display:grid;
+    grid-gap:3px;
+    grid-column-start:1;
+    grid-column-end:5;
+    align-content: center;
+    border-radius: 5px;
+
+    
+}
+}
+@media screen and (max-width: 750px){
+.fourth-sec{
+display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows:repeat(3,1fr);
+justify-content: stretch;
+grid-gap:20px;
+border-radius: 5px;
+
+
+}
+.five {
+    display:grid;
+    grid-gap:3px;
+    grid-column-start:1;
+    grid-column-end:3;
+    align-content: center;
+    border-radius: 5px;
+
+    
+}
+}
+
+  .nested{
+      border:0.1px solid black;
+      display:flex; 
+      justify-content:space-between;
+      flex-wrap: wrap;
+      border-radius: 3px;
+      padding:.3em;
+
+  }
+  img{
+      border-radius:50px;
+     }
+ .box{
+     display:flex;
+     flex-direction:column;
+     border-radius: 5px;
+ }
+ #topcandidate{
+     display:flex;
+     padding:.3em;
+     justify-content: space-around;
+     border-radius: 5px;
+
+ }
+ #candidate-list{
+    display:grid;
+}
+#grouped{
+    display:flex;
+    justify-content: center;
+}
+ 
+ 
+
