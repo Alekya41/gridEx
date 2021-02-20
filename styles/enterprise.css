@@ -1,4 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#search {
+    display: flex;
+    background-color: rgb(213, 255, 213);
+    align-items: center;
+    padding: .2em .1em .2em .2em;
+    gap: 5px;
+}
+
+#search > input {
+    flex-grow: 1;
+    height: 100%;
+
+}
+
 .outer{
     display:flex;
     padding:2em;
