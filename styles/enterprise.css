@@ -161,6 +161,15 @@ border-radius: 5px;
     display:flex;
     justify-content: center;
 }
+
+.add-candidates {
+    flex: 1 0 200px; 
+}
  
- 
+@media screen and (max-width: 768px) {
+    #search > i {
+        display: none;
+    }
+}
+
 
