@@ -2,10 +2,12 @@
 
 #search {
     display: flex;
-    background-color: rgb(213, 255, 213);
+    background-color: rgb(206, 229, 255);
     align-items: center;
-    padding: .2em .1em .2em .2em;
-    gap: 5px;
+    padding: .2em 1.1em .2em .9em;
+    gap: .7em;
+    min-height: 2.2em;
+    flex: 5 0 70%; 
 }
 
 #search > input {
