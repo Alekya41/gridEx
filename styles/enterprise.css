@@ -2,7 +2,7 @@
 
 #search {
     display: flex;
-    background-color: rgb(206, 229, 255);
+    background-color: rgb(225, 229, 233);
     align-items: center;
     padding: .2em 1.1em .2em .9em;
     gap: .7em;
@@ -22,7 +22,7 @@
     flex-direction:column;
     align-content:space-between;
     gap:10px;
-    background-color: rgb(37, 65, 78);
+    background-color:rgb(224, 224, 224);
 }
 
 .section{
@@ -32,7 +32,7 @@
    
 }
 div{
-    background-color:lavender;
+    background-color: rgb(235, 238, 240);
     padding:.10px;
     text-align: center;
 }
@@ -48,8 +48,9 @@ div{
     flex:1 0 20%;
 
 }
-#edit{
-    flex:0.5 0 20%;
+#Edit{
+    flex:1 0 3%;
+    
 }
 #search{
     flex:2 0 30%;
@@ -76,7 +77,10 @@ input{
 #lead{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    padding:0.3em;
+    gap:8px;
+    border-radius: 25px;
 
 }
 #filter{
@@ -85,6 +89,7 @@ input{
 #list{
 margin-left:auto;
 align-content:center;
+padding:0.3em;
 }
 @media screen and (min-width: 750px){
 .fourth-sec{
@@ -96,7 +101,6 @@ align-content:center;
 
 }
 .five {
-    border:1px solid black;
     display:grid;
     grid-gap:3px;
     grid-column-start:1;
@@ -129,13 +133,12 @@ border-radius: 5px;
     
 }
 }
-
-  .nested{
+ .nested{
       border:0.1px solid black;
       display:flex; 
       justify-content:space-between;
       flex-wrap: wrap;
-      border-radius: 3px;
+      border-radius: 2px;
       padding:.3em;
 
   }
@@ -146,11 +149,13 @@ border-radius: 5px;
      display:flex;
      flex-direction:column;
      border-radius: 5px;
+     padding:0.2em;
+     gap:4px;
  }
  #topcandidate{
      display:flex;
      padding:.3em;
-     justify-content: space-around;
+     justify-content: space-between;
      border-radius: 5px;
 
  }
@@ -160,6 +165,8 @@ border-radius: 5px;
 #grouped{
     display:flex;
     justify-content: center;
+    padding:0.2em;
+    gap:6px;
 }
 
 .add-candidates {
